@@ -6,19 +6,15 @@
         {
 
 
-            #region Q3
-            float num1 = 6.5f;
-            float num2 = 2.5f;
+            #region Q4
+            //Write C# program that Extract a substring from a given string.
 
-            float a = num1 + num2;
-            float b = num1 - num2;
-            float c = num1 * num2;
-            float d = num1 / num2;
+            string mainString = "Hello World!";
 
-            Console.WriteLine($"A: {num1} + {num2} = {a}");
-            Console.WriteLine($"B: {num1} - {num2} = {b}");
-            Console.WriteLine($"C: {num1} * {num2} = {c}");
-            Console.WriteLine($"D: {num1} / {num2} = {d}");
+            string extracted = mainString.Substring(7, 5);
+
+            Console.WriteLine($"Original string: {mainString}");
+            Console.WriteLine($"Extracted substring: {extracted}");
             #endregion
 
         }
