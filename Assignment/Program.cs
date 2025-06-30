@@ -4,26 +4,23 @@
     {
         static void Main(string[] args)
         {
-            #region Q1
-            //Write a program that allows the user to enter a number then print it
-            //Console.Write("Enter a number: ");
-            //double number = Convert.ToDouble(Console.ReadLine());
-            //Console.WriteLine($"You entered: {number}");
+
+
+            #region Q3
+            float num1 = 6.5f;
+            float num2 = 2.5f;
+
+            float a = num1 + num2;
+            float b = num1 - num2;
+            float c = num1 * num2;
+            float d = num1 / num2;
+
+            Console.WriteLine($"A: {num1} + {num2} = {a}");
+            Console.WriteLine($"B: {num1} - {num2} = {b}");
+            Console.WriteLine($"C: {num1} * {num2} = {c}");
+            Console.WriteLine($"D: {num1} / {num2} = {d}");
             #endregion
 
-            #region Q2
-            string name = "ahmed123";
-
-            // Safe conversion using TryParse
-            if (int.TryParse(name, out int number))
-            {
-                Console.WriteLine($"Converted number: {number}");
-            }
-            else
-            {
-                Console.WriteLine("contains non-numeric characters");
-                #endregion
-            }
         }
 
     }
