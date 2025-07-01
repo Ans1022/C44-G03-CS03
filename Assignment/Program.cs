@@ -9,18 +9,16 @@ namespace Assignment
         {
 
 
-            #region Q9
-            //Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters. The formula for BM
-            double weight, height, bmi;
+            #region Q10
+            //Write a program that uses the ternary operator to check if the temperature is too hot, too cold, or just good. Assign the result in a variable then display the result. Assume that below 10 degrees is "Just Cold", above 30 degrees is 
+            Console.Write("Enter the degrees: ");
+            int degrees = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter weight in kilograms: ");
-            weight = Convert.ToDouble(Console.ReadLine());
+            string result = (degrees < 10) ? "Just Cold" :
+                            (degrees > 30) ? "Just Hot"  : "Just Good";
+                           
 
-            Console.Write("Enter height in meters: ");
-            height = Convert.ToDouble(Console.ReadLine());
-
-            bmi = weight / (height * height);
-            Console.WriteLine("Your Body Mass Index is: " + bmi);
+            Console.WriteLine("The weather is: " + result);
             #endregion
 
         }
