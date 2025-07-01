@@ -9,17 +9,14 @@ namespace Assignment
         {
 
 
-            #region Q6
-            //Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen            int original = 50;
-            Person person1 = new Person();
-            person1.Name = "Anas";
+            #region Q7
+            //Write C# program that take two string variables and print them as one variable 
+            string firstN = "Anas";
+            string lastN = "Mohamed Mohamedy";
 
-            Person person2 = person1;
+            string fullN = firstN + " " + lastN;
 
-            person2.Name = "Mohamed";
-
-            Console.WriteLine("person1.Name: " + person1.Name);
-            Console.WriteLine("person2.Name: " + person2.Name);
+            Console.WriteLine("FullN : " + fullN);
             #endregion
 
         }
