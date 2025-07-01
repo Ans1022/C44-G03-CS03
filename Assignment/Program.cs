@@ -8,11 +8,15 @@ namespace Assignment
         static void Main(string[] args)
         {
 
-            #region Q14
-            //Which of the following is the correct output for the C# code given below?
-            Console.WriteLine(13 / 2 + " " + 13 % 2);
+            #region Q15
+            //What will be the output of the C# code given below?
+            int num = 1, z = 5;
+            if (!(num <= 0))
+                Console.WriteLine(++num + z++ + " " + ++z);
+            else
+                Console.WriteLine(--num + z-- + " " + --z);
 
-            // output = 6  1
+            // output = 7  7
             #endregion
 
 
