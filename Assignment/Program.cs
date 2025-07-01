@@ -9,14 +9,20 @@ namespace Assignment
         {
 
 
-            #region Q7
-            //Write C# program that take two string variables and print them as one variable 
-            string firstN = "Anas";
-            string lastN = "Mohamed Mohamedy";
+            #region Q8
+            // Write a program that calculates the simple interest given the principal amount, rate of interest, and time. The formula for simple interest is 
+            //Interest = (principal * rate * time) / 100.
+            Console.WriteLine("Enter the principal : ");
+            double principal = Convert.ToDouble(Console.ReadLine());
 
-            string fullN = firstN + " " + lastN;
+            Console.WriteLine("Enter the rate : ");
+            double rate = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("FullN : " + fullN);
+            Console.WriteLine("Enter the time : ");
+            double time = Convert.ToDouble(Console.ReadLine());
+
+            double interest = (principal * rate * time) / 100;
+            Console.WriteLine("Simple Interest = " + interest);
             #endregion
 
         }
