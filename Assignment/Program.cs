@@ -9,20 +9,18 @@ namespace Assignment
         {
 
 
-            #region Q8
-            // Write a program that calculates the simple interest given the principal amount, rate of interest, and time. The formula for simple interest is 
-            //Interest = (principal * rate * time) / 100.
-            Console.WriteLine("Enter the principal : ");
-            double principal = Convert.ToDouble(Console.ReadLine());
+            #region Q9
+            //Write a program that calculates the Body Mass Index (BMI) given a person's weight in kilograms and height in meters. The formula for BM
+            double weight, height, bmi;
 
-            Console.WriteLine("Enter the rate : ");
-            double rate = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter weight in kilograms: ");
+            weight = Convert.ToDouble(Console.ReadLine());
 
-            Console.WriteLine("Enter the time : ");
-            double time = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Enter height in meters: ");
+            height = Convert.ToDouble(Console.ReadLine());
 
-            double interest = (principal * rate * time) / 100;
-            Console.WriteLine("Simple Interest = " + interest);
+            bmi = weight / (height * height);
+            Console.WriteLine("Your Body Mass Index is: " + bmi);
             #endregion
 
         }
