@@ -8,12 +8,11 @@ namespace Assignment
         static void Main(string[] args)
         {
 
-            #region Q13
-            // Which of the following statements is correct about the C#.NET code snippet given below?
-            int d;
-            d = Convert.ToInt32(!(30 < 20));
+            #region Q14
+            //Which of the following is the correct output for the C# code given below?
+            Console.WriteLine(13 / 2 + " " + 13 % 2);
 
-            // output = A value 1 will be assigned to d
+            // output = 6  1
             #endregion
 
 
